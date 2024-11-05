@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(2.jpg);
+  background-size: cover;
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items:center ;
+}
+
+.logo{
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.menu a:hover{
+  border: 1px solid #ff6b35;
+  background: transparent;
+}
+
+.register a{
+  text-decoration: none;
+  color: white;
+  padding:10px 20px;
+  font-size: 20px; ;
+  border-radius: 8px ;
+  background: #ff6b35;
+}
+
+.register a:hover{
+  border: 1px solid;
+  background: transparent;
+}
+.h-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 650px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.h-text{
+  letter-spacing: 5px;
+}
+
+.h-text h1{
+  font-size: 3.5rem;
+}
+
+.h-text a{
+  text-decoration: none;
+  background: #ff6b35;
+  padding: 10px 20px;
+  color: white;
+  letter-spacing: 5px;
+  transition: 0.4s ;
+}
+
+.h-text a:hover{
+  border: 1px solid #ff6b35;
+  background: transparent;
+}
